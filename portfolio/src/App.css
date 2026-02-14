@@ -198,17 +198,32 @@ nav a:hover {
   font-weight: bold;
 }
 
-/* Estilo normal (desktop) */
+
 .navbar {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+  gap: 24px;
+  padding: 12px 20px;
+  flex-wrap: wrap; /* permite que baje sin romper */
 }
 
-/* Móvil */
+.navbar a {
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 10px;
+}
+
+/* Mobile */
 @media (max-width: 768px) {
   .navbar {
-    flex-direction: column; /* Links apilados verticalmente */
-    gap: 10px; /* espacio entre links */
+    justify-content: center;
+    gap: 12px;
+  }
+
+  .navbar a {
+    width: 100%;
+    text-align: center;
   }
 }
+
