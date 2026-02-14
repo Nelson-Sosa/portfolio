@@ -197,3 +197,18 @@ nav a:hover {
   color: #16a34a; /* verde éxito */
   font-weight: bold;
 }
+
+/* Estilo normal (desktop) */
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* Móvil */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column; /* Links apilados verticalmente */
+    gap: 10px; /* espacio entre links */
+  }
+}

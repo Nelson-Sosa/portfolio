@@ -5,7 +5,7 @@ const Contact = () => {
    return (
     <section id="contact">
       <h2>Contacto</h2>
-      <p>¿Quieres hablar conmigo? Rellena el formulario o contáctame directamente:</p>
+      <p>¿Quieres hablar conmigo? contáctame directamente:</p>
       <div className="contact-buttons">
          <a href="mailto:ns5389188@gmail.com" target="_blank" rel="noreferrer">
     Email

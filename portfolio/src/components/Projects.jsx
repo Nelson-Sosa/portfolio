@@ -4,7 +4,7 @@ const projects = [
     {
     name: "MANCEG_PROYECT",
     description: "Proyecto web con funcionalidades avanzadas en JavaScript y manejo de datos dinámicos.",
-    tech: "HTML, CSS, JavaScript, Node.js",
+    tech: "React, Node.js, MongoDB, Express, JWT",
     github: "https://github.com/Nelson-Sosa/MANCEG_PROYECT",
     //demo: "#"
   },
