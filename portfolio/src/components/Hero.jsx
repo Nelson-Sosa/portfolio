@@ -10,8 +10,8 @@ const Hero = () => {
       />
       <h1>Nelson Sosa</h1>
       <p>Desarrollador Fullstack MERN | Frontend & Backend</p>
-      <div className="hero-buttons">
-  <a href="#projects" className="btn btn-primary">
+    <div className="hero-buttons">
+  <a href="#projects" className="btn">
     Ver proyectos
   </a>
 
@@ -20,11 +20,12 @@ const Hero = () => {
     download
     target="_blank"
     rel="noreferrer"
-    className="btn btn-secondary"
+    className="btn"
   >
     Descargar CV
   </a>
 </div>
+
     </section>
   );
 };
