@@ -10,17 +10,21 @@ const Hero = () => {
       />
       <h1>Nelson Sosa</h1>
       <p>Desarrollador Fullstack MERN | Frontend & Backend</p>
-      <a href="#projects" className="btn">Ver proyectos</a>
-      <a
-  href="/CV_Nelson_Sosa.pdf"
-  download
-  target="_blank"
-  rel="noreferrer"
-  className="cv-btn"
->
-  Descargar CV
-</a>
+      <div className="hero-buttons">
+  <a href="#projects" className="btn btn-primary">
+    Ver proyectos
+  </a>
 
+  <a
+    href="/CV_Nelson_Sosa.pdf"
+    download
+    target="_blank"
+    rel="noreferrer"
+    className="btn btn-secondary"
+  >
+    Descargar CV
+  </a>
+</div>
     </section>
   );
 };
