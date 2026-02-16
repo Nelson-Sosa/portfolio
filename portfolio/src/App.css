@@ -143,6 +143,11 @@ nav a:hover {
   font-weight: 600;
   transition: 0.2s ease;
   border: 1px solid #222;
+    display: flex;
+  gap: 18px; /* antes 12px */
+  flex-wrap: wrap;
+  margin-top: 18px; /* separación del texto */
+
 }
 
 .cv-btn:hover {
