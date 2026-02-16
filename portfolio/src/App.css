@@ -134,6 +134,20 @@ nav a:hover {
   background-color: #eab308; /* amarillo más intenso */
 }
 
+.cv-btn {
+  display: inline-block;
+  padding: 12px 18px;
+  border-radius: 14px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.2s ease;
+  border: 1px solid #222;
+}
+
+.cv-btn:hover {
+  transform: translateY(-2px);
+}
+
 #contact {
   text-align: center;
   padding: 60px 20px;
