@@ -3,14 +3,14 @@ import React from "react";
 const projects = [
     {
     name: "MANCEG_PROYECT",
-    description: "Proyecto web con funcionalidades avanzadas en JavaScript y manejo de datos dinámicos.",
+    description: "Sistema Full Stack MERN para gestión empresarial con autenticación JWT, CRUD completo y API REST.",
     tech: "React, Node.js, MongoDB, Express",
     github: "https://github.com/Nelson-Sosa/MANCEG_PROYECT",
     //demo: "#"
   },
   {
     name: "GameMasters",
-    description: "E-commerce para gamers con login, CRUD de productos y generación de facturas en PDF.",
+    description: "App Full Stack MERN para venta de productos gamers, con JWT, CRUD, carga de imágenes, buscador por categorías y API REST.",
     tech: "React, Node.js, MongoDB, Express",
     github: "https://github.com/Nelson-Sosa/GameMasters",
     //demo: "#" // si tienes demo online
