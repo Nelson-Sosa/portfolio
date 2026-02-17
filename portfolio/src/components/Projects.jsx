@@ -3,7 +3,7 @@ import React from "react";
 const projects = [
     {
     name: "MANCEG_PROYECT",
-    description: "MANCEG ERP — Sistema Full Stack MERN con JWT, APIs REST y CRUD completos para módulos de gestión empresarial, integrando frontend, backend y base de datos con MongoDB.",
+    description: "Sistema Full Stack MERN con JWT, APIs REST y CRUD completos para módulos de gestión empresarial, integrando frontend, backend y base de datos con MongoDB.",
     tech: "React, Node.js, MongoDB, Express",
     github: "https://github.com/Nelson-Sosa/MANCEG_PROYECT",
     //demo: "#"
