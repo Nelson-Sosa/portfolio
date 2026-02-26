@@ -13,7 +13,7 @@ const projects = [
     description: "App Full Stack MERN para venta de productos gamers, con JWT, CRUD, carga de imágenes, buscador por categorías y API REST.",
     tech: "React, Node.js, MongoDB, Express",
     github: "https://github.com/Nelson-Sosa/GameMasters",
-    //demo: "#" // si tienes demo online
+    demo: "https://gamemasters-aqha.onrender.com" // si tienes demo online
   }
 
 ];
