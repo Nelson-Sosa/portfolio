@@ -1,21 +1,19 @@
 import React from "react";
 
 const projects = [
-    {
+  {
+    name: "PuraTech",
+    description: "Plataforma de e-commerce Full Stack MERN avanzada. Implementa autenticación segura JWT, control de acceso basado en roles (RBAC), y un innovador sistema jerárquico de categorías de 3 niveles. Incluye un completo panel de administración de productos e inventario, integración de Stripe para pagos en producción y optimización de imágenes con Cloudinary.",
+    tech: "React 18, Node.js, Express.js, MongoDB, JWT, Stripe, Cloudinary, Tailwind CSS.",
+    github: "https://github.com/Nelson-Sosa/PuraTech",
+    demo: "https://puratech-store.vercel.app/"
+  },
+  {
     name: "MANCEG_PROYECT",
     description: "Sistema Full Stack MERN con JWT, APIs REST y CRUD completos para módulos de gestión empresarial, integrando frontend, backend y base de datos con MongoDB.",
     tech: "React, Node.js, MongoDB, Express",
-    github: "https://github.com/Nelson-Sosa/MANCEG_PROYECT",
-    //demo: "#"
-  },
-  {
-    name: "GameMasters",
-    description: "App Full Stack MERN para venta de productos gamers, con JWT, CRUD, carga de imágenes, buscador por categorías y API REST.",
-    tech: "React, Node.js, MongoDB, Express",
-    github: "https://github.com/Nelson-Sosa/GameMasters",
-    demo: "https://gamemasters-aqha.onrender.com" // si tienes demo online
+    github: "https://github.com/Nelson-Sosa/MANCEG_PROYECT"
   }
-
 ];
 
 const Projects = () => {
