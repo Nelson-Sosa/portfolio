@@ -3,10 +3,17 @@ import React from "react";
 const projects = [
   {
     name: "PuraTech",
-    description: "Plataforma de e-commerce Full Stack MERN avanzada. Implementa autenticación segura JWT, control de acceso basado en roles (RBAC), y un innovador sistema jerárquico de categorías de 3 niveles. Incluye un completo panel de administración de productos e inventario, integración de Stripe para pagos en producción y optimización de imágenes con Cloudinary.",
+    description: "Plataforma de e-commerce Full Stack MERN avanzada. Implementa autenticación segura JWT, control de acceso basado en roles (RBAC), y un innovador sistema jerárquico de categorías de 3 niveles. Incluye panel de administración de productos e inventario, integración de Stripe y optimización de imágenes con Cloudinary.",
     tech: "React 18, Node.js, Express.js, MongoDB, JWT, Stripe, Cloudinary, Tailwind CSS.",
     github: "https://github.com/Nelson-Sosa/PuraTech",
     demo: "https://puratech-store.vercel.app/"
+  },
+  {
+    name: "CodigoPy",
+    description: "Sistema completo de gestión de inventario y punto de venta diseñado para negocios en Paraguay. Cuenta con control de caja diario, soporte nativo para moneda dual (USD/Gs.), validación automática de margen de ganancias y generación automatizada de tickets para impresoras térmicas de 80mm.",
+    tech: "React 18, TypeScript, Vite, Node.js, Express.js, MongoDB, Tailwind CSS.",
+    github: "https://github.com/Nelson-Sosa/CodigoPy",
+    demo: "https://codigo-py-frontend.onrender.com/#/login"
   },
   {
     name: "MANCEG_PROYECT",
