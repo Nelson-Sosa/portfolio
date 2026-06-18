@@ -1,10 +1,12 @@
 import React from "react";
 
 const skills = [
-  "Frontend: HTML5, CSS3, React.js, Bootstrap",
-  "Backend: Node.js, Express.js, Ruby on Rails",
-  "Bases de datos: MongoDB, MySQL, PostgreSQL",
-  "Herramientas: Git/GitHub, Postman"
+  "Lenguajes: JavaScript, TypeScript, SQL, Java, C#, Ruby",
+  "Frontend: React, HTML5, CSS3, Tailwind CSS, Bootstrap, Vite",
+  "Backend: Node.js, Express, Ruby on Rails",
+  "Bases de Datos: MongoDB, MySQL, PostgreSQL",
+  "Herramientas: Git, GitHub, Postman",
+  "Deployment: Vercel, Render, MongoDB Atlas"
 ];
 
 const Skills = () => {
