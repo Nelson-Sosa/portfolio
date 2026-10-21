@@ -64,8 +64,8 @@ const About = () => {
 
             <div className="about-cta">
               <a
-                href="/CV_Nelson_Sosa.pdf"
-                download
+                href="/CV-Nelson-Sosa.pdf"
+                download="CV-Nelson-Sosa.pdf"
                 target="_blank"
                 rel="noreferrer"
                 className="btn btn-primary"
