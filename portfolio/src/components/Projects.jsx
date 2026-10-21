@@ -154,7 +154,7 @@ const ProjectCard = ({ project, index }) => {
 
       {/* Card body */}
       <div className="project-body">
-        <div>
+        <div className="project-header">
           <h3 className="project-name">{project.name}</h3>
           <p className="project-tagline">{project.tagline}</p>
         </div>
