@@ -33,6 +33,7 @@ const PLACEHOLDER_BG = {
   '#f59e0b': 'linear-gradient(135deg, rgba(245,158,11,0.12) 0%, rgba(217,119,6,0.08) 100%)',
   '#eab308': 'linear-gradient(135deg, rgba(234,179,8,0.12) 0%, rgba(202,138,4,0.08) 100%)',
   '#22d3ee': 'linear-gradient(135deg, rgba(34,211,238,0.12) 0%, rgba(6,182,212,0.08) 100%)',
+  '#ec4899': 'linear-gradient(135deg, rgba(236,72,153,0.12) 0%, rgba(219,39,119,0.08) 100%)',
 };
 
 const PLACEHOLDER_EMOJI = {
@@ -40,6 +41,7 @@ const PLACEHOLDER_EMOJI = {
   tiendaonline: '🛍️',
   'sistema-comercial': '🏬',
   barberpro: '💈',
+  patynails: '💅',
   puratech: '🛒',
   manceg: '📊',
 };
@@ -91,10 +93,10 @@ const ProjectCard = ({ project, index }) => {
                     target="_blank"
                     rel="noopener noreferrer"
                     className="project-overlay-btn"
-                    aria-label={`Ver demo de ${project.name}`}
+                    aria-label={`${project.demoLabel || 'Ver demo'} de ${project.name}`}
                     tabIndex={-1}
                   >
-                    Demo
+                    {project.demoLabel || 'Demo'}
                   </a>
                 )}
                 {project.video && (
@@ -139,6 +141,14 @@ const ProjectCard = ({ project, index }) => {
           <div className="project-category-badge" aria-label={`Categoría: ${project.category}`}>
             {project.category}
           </div>
+
+          {/* Real Business / Status badge */}
+          {project.badge && (
+            <div className="project-status-badge" aria-label={`Estado: ${project.badge}`}>
+              <span className="project-status-dot" aria-hidden="true" />
+              {project.badge}
+            </div>
+          )}
         </div>
       </div>
 
@@ -178,10 +188,10 @@ const ProjectCard = ({ project, index }) => {
               target="_blank"
               rel="noopener noreferrer"
               className="project-btn project-btn-demo"
-              aria-label={`Abrir demo de ${project.name}`}
+              aria-label={`Abrir ${project.demoLabel ? project.demoLabel.toLowerCase() : 'demo'} de ${project.name}`}
             >
               <ExternalLinkIcon />
-              Demo
+              {project.demoLabel || 'Demo'}
             </a>
           )}
           {project.video && (
