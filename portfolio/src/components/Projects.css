@@ -215,8 +215,8 @@
 /* Status / Real business badge */
 .project-status-badge {
   position: absolute;
-  top: var(--space-3);
-  right: var(--space-3);
+  top: calc(var(--space-3) + 28px);
+  left: var(--space-3);
   display: inline-flex;
   align-items: center;
   gap: 6px;
