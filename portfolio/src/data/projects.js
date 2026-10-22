@@ -45,6 +45,28 @@ export const projects = [
     color: '#10b981',
   },
   {
+    id: 'mundotintin',
+    name: 'Mundo Tin Tin',
+    category: 'Sistema de Gestión Comercial',
+    badge: 'Proyecto para cliente · En producción',
+    tagline: 'Sistema de gestión comercial para emprendedores',
+    description:
+      'Sistema web de gestión comercial desarrollado para un cliente y actualmente utilizado en las operaciones de su negocio. Centraliza las operaciones de un negocio minorista integrando punto de venta (POS), control de inventario, gestión de pedidos y clientes, registro de gastos operativos, indicadores financieros y un catálogo público de productos.',
+    highlights: [
+      'Dashboard financiero con métricas de ventas, ganancias netas y gastos operativos',
+      'Punto de venta (POS) con operaciones transaccionales para mantener consistencia del inventario',
+      'Gestión de pedidos con seguimiento de estados y control de stock reservado vs. stock físico',
+      'Historial de ventas con consulta de operaciones y posibilidad de anulación',
+    ],
+    tech: ['React 19', 'Vite 8', 'Tailwind CSS 4', 'React Router 7', 'Firebase Auth', 'Cloud Firestore', 'Cloudinary', 'React Hook Form', 'Zod', 'Recharts'],
+    github: null,
+    demo: 'https://mundo-tin-tin.firebaseapp.com/',
+    demoLabel: 'Ver catálogo',
+    image: '/mundotintin.png',
+    imageAlt: 'Dashboard del sistema de gestión comercial Mundo Tin Tin con métricas financieras',
+    color: '#f97316',
+  },
+  {
     id: 'sistema-comercial',
     name: 'Sistema Comercial',
     category: 'Plataforma de Gestión Comercial',

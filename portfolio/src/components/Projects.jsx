@@ -30,6 +30,7 @@ const PLACEHOLDER_BG = {
   '#3b82f6': 'linear-gradient(135deg, rgba(59,130,246,0.12) 0%, rgba(29,78,216,0.08) 100%)',
   '#8b5cf6': 'linear-gradient(135deg, rgba(139,92,246,0.12) 0%, rgba(109,40,217,0.08) 100%)',
   '#10b981': 'linear-gradient(135deg, rgba(16,185,129,0.12) 0%, rgba(5,150,105,0.08) 100%)',
+  '#f97316': 'linear-gradient(135deg, rgba(249,115,22,0.12) 0%, rgba(234,88,12,0.08) 100%)',
   '#f59e0b': 'linear-gradient(135deg, rgba(245,158,11,0.12) 0%, rgba(217,119,6,0.08) 100%)',
   '#eab308': 'linear-gradient(135deg, rgba(234,179,8,0.12) 0%, rgba(202,138,4,0.08) 100%)',
   '#22d3ee': 'linear-gradient(135deg, rgba(34,211,238,0.12) 0%, rgba(6,182,212,0.08) 100%)',
@@ -39,6 +40,7 @@ const PLACEHOLDER_BG = {
 const PLACEHOLDER_EMOJI = {
   codigopy: '🏪',
   tiendaonline: '🛍️',
+  mundotintin: '🏬',
   'sistema-comercial': '🏬',
   barberpro: '💈',
   patynails: '💅',
