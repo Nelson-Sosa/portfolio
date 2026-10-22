@@ -3,14 +3,26 @@
 
 export const skillCategories = [
   {
+    id: 'languages',
+    label: 'Lenguajes de Programación',
+    icon: '⬡',
+    color: '#f59e0b',
+    skills: [
+      { name: 'JavaScript', icon: 'js' },
+      { name: 'TypeScript', icon: 'ts' },
+      { name: 'SQL', icon: 'sql' },
+      { name: 'Java', icon: 'java' },
+      { name: 'C#', icon: 'csharp' },
+      { name: 'Ruby', icon: 'ruby' },
+    ],
+  },
+  {
     id: 'frontend',
     label: 'Frontend',
     icon: '⬡',
     color: '#3b82f6',
     skills: [
       { name: 'React', icon: 'react' },
-      { name: 'TypeScript', icon: 'ts' },
-      { name: 'JavaScript', icon: 'js' },
       { name: 'HTML5', icon: 'html' },
       { name: 'CSS3', icon: 'css' },
       { name: 'Tailwind CSS', icon: 'tailwind' },
@@ -25,7 +37,9 @@ export const skillCategories = [
     color: '#8b5cf6',
     skills: [
       { name: 'Node.js', icon: 'node' },
-      { name: 'Express.js', icon: 'express' },
+      { name: 'Express', icon: 'express' },
+      { name: 'REST APIs', icon: 'api' },
+      { name: 'JWT', icon: 'jwt' },
       { name: 'Ruby on Rails', icon: 'rails' },
     ],
   },
@@ -38,23 +52,12 @@ export const skillCategories = [
       { name: 'MongoDB', icon: 'mongo' },
       { name: 'MySQL', icon: 'mysql' },
       { name: 'PostgreSQL', icon: 'postgres' },
-    ],
-  },
-  {
-    id: 'languages',
-    label: 'Lenguajes',
-    icon: '⬡',
-    color: '#f59e0b',
-    skills: [
-      { name: 'SQL', icon: 'sql' },
-      { name: 'Java', icon: 'java' },
-      { name: 'C#', icon: 'csharp' },
-      { name: 'Ruby', icon: 'ruby' },
+      { name: 'Firestore', icon: 'firestore' },
     ],
   },
   {
     id: 'tools',
-    label: 'Herramientas',
+    label: 'Herramientas de Desarrollo',
     icon: '⬡',
     color: '#10b981',
     skills: [
@@ -65,12 +68,14 @@ export const skillCategories = [
   },
   {
     id: 'deployment',
-    label: 'Despliegue',
+    label: 'Deployment / Cloud',
     icon: '⬡',
     color: '#f97316',
     skills: [
       { name: 'Vercel', icon: 'vercel' },
       { name: 'Render', icon: 'render' },
+      { name: 'Firebase Hosting', icon: 'firebase' },
+      { name: 'Firebase Auth', icon: 'firebase-auth' },
       { name: 'MongoDB Atlas', icon: 'atlas' },
     ],
   },
